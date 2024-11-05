@@ -102,11 +102,11 @@ export const assets = {
 
 export const products = [
     {
-        _id: "Sephora Kit",
-        name: "Kit Week-End",
+        _id: "p_img1",
+        name: "Women Rounded Neck Cotton Top",
         description: "Bu",
         price: 389,
-        image: [Sephora_img1],
+        image: [p_img1],
         category: "Woman",
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
