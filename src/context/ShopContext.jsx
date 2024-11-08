@@ -11,6 +11,7 @@ const ShopContextProvider = (props) => {
   const [search,setSearch] = useState('');
   const [showSearch,setShowSearch] = useState(false);
   const [cartItems,setCartItems] = useState({});
+  
 
 
   const addToCart = async (itemId,size) =>{
@@ -53,13 +54,58 @@ const ShopContextProvider = (props) => {
     return totalCount;
   }
 
+  const updateQuantitiy = async (itemId,size,quantity) => {
+    let cartData = structuredClone(cartItems);
+
+    cartData[itemId][size] = quantity;
+
+    setCartItems(cartData);
+  }
+
+  // const getCartAmount =  () => {
+  //   let totalAmount = 0;
+  //   for(const items in cartItems){
+  //     let itemInfo = products.find((product)=>product.id === items);
+  //     for(const item in cartItems[items]){
+  //       try {
+  //         if (cartItems[items][item] > 0) {
+  //           totalAmount += itemInfo.price * cartItems[items][item]
+  //         }
+  //       } catch (error) {
+          
+  //       }
+  //     }
+  //   }
+  //   return totalAmount;
+  // }
+
+  const getCartAmount = () => {
+    let totalAmount = 0;
+    for (const items in cartItems) {
+      let itemInfo = products.find((product) => product._id === items); // id kontrolü burada yapılıyor
+      if (!itemInfo) continue; // Eğer itemInfo bulunamazsa geç
+  
+      for (const item in cartItems[items]) {
+        try {
+          if (cartItems[items][item] > 0) {
+            totalAmount += itemInfo.price * cartItems[items][item];
+          }
+        } catch (error) {
+          console.error("Error calculating total amount:", error);
+        }
+      }
+    }
+    return totalAmount;
+  };
+  
 
 
   const value = {
     products , currency , delivery_fee,
     search,setSearch,showSearch,setShowSearch,
     cartItems,addToCart,
-    getCartCount
+    getCartCount,updateQuantitiy,
+    getCartAmount
   }
 
   return (
