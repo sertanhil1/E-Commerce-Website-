@@ -38,6 +38,8 @@ const Navbar = () => {
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
 
+        
+
       </ul>
 
       <div className='flex items-center gap-8'>
