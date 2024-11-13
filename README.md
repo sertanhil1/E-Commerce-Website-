@@ -5,3 +5,5 @@ I am actively working on an e-commerce website project. The goal is to create a 
 ![Alt Text](https://github.com/sertanhil1/E-Commerce-Website-/blob/5594a0b2f6671a75f6628514f45aa488c8b3216e/2.png)
 ![Alt Text](https://github.com/sertanhil1/E-Commerce-Website-/blob/5594a0b2f6671a75f6628514f45aa488c8b3216e/4.png)
 ![Alt Text](https://github.com/sertanhil1/E-Commerce-Website-/blob/5594a0b2f6671a75f6628514f45aa488c8b3216e/5.png)
+![Alt Text](https://github.com/sertanhil1/E-Commerce-Website-/blob/5594a0b2f6671a75f6628514f45aa488c8b3216e/9.png)
+![Alt Text](https://github.com/sertanhil1/E-Commerce-Website-/blob/5594a0b2f6671a75f6628514f45aa488c8b3216e/10.png)
