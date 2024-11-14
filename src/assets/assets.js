@@ -57,6 +57,7 @@ import p_img52 from './p_img52.png'
 
 
 
+
 import setologo from './seto.logo.png'
 import hero_banner from './hero_banner.png'
 import hero_img from './hero_img.png'
@@ -76,6 +77,9 @@ import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
+import shipment_img from './shipment.png'
+import privacy_policy_img from './privacy_policy.png'
+
 
 export const assets = {
     hero_banner,
@@ -97,7 +101,10 @@ export const assets = {
     contact_img,
     razorpay_logo,
     stripe_logo,
-    cross_icon
+    cross_icon,
+    shipment_img,
+    privacy_policy_img
+    
 }
 
 export const products = [
