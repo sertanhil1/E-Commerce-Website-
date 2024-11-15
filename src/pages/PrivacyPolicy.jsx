@@ -19,7 +19,6 @@ const PrivacyPolicy = () => {
     {/* Delivery Information */}
     <div className='my-10 flex flex-col md:flex-row gap-16'>
       
-
       <img className='w-full md:max-w-[500px] md:h-[600px] object-cover rounded-2xl md:order-last md:ml-auto'src={assets.privacy_policy_img} alt=""/>
       
       <p>
@@ -48,24 +47,20 @@ const PrivacyPolicy = () => {
 
       <div className='flex flex-col md:flex-row text-sm mb-20'>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-          <b>Fast & Reliable Delivery</b>
-          <p>We understand the excitement of receiving your order quickly. That’s why we ensure fast processing times and reliable delivery, so you can enjoy your products without delay.</p>
+          <b>Data Security</b>
+          <p>We prioritize the safety of your personal information by employing the latest encryption and security measures to protect your data from unauthorized access. Our team is dedicated to ensuring that your privacy is maintained throughout your entire shopping experience.</p>
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 ml-5'>
-          <b>Affordable Shipping </b>
-          <p>We offer a variety of shipping methods to suit your needs and budget. Whether you choose our standard or express delivery, we guarantee competitive prices with no hidden fees.</p>
+          <b>Transparent Data Practices </b>
+          <p>We believe in being transparent with our customers about how we collect, use, and store your data. We only collect the information necessary to provide you with the best service and ensure that you have a seamless shopping experience.</p>
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 ml-5'>
-          <b>Track Your Order</b>
-          <p>Stay informed with our easy-to-use tracking system. Once your order is dispatched, you’ll receive a tracking number, allowing you to follow your package every step of the way.</p>
+          <b>Your Information, Your Control</b>
+          <p>Your privacy is important to us, and we give you full control over your personal information. You can easily access, update, or delete your data whenever you wish, giving you peace of mind that your information is always in your hands.</p>
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 ml-5'>
-          <b>International Shipping</b>
-          <p>Whether you’re near or far, we’ve got you covered. We offer nationwide shipping and can deliver internationally to ensure that our products reach you no matter where you are.</p>
-        </div>
-        <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5 ml-5'>
-          <b>Customer Support That Cares</b>
-          <p>Our dedicated customer support team is here to assist you with any questions or issues regarding your delivery. Your satisfaction is our top priority, and we’re here to ensure your experience is smooth from start to finish.</p>
+          <b>No Third-Party Selling</b>
+          <p>We will never sell or share your personal information with third parties for marketing purposes. We respect your privacy and only use your data to process orders, improve services, and ensure timely communication regarding your purchases.</p>
         </div>
       </div>
     </div>
